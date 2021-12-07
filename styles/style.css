@@ -70,6 +70,11 @@
   bottom: 0;
 }
 
+.header__link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 
 /* секция description */
 
@@ -89,11 +94,13 @@
   font-size: 18px;
   color: #2f80ed;
   display: block;
-
+  width: 175px;
+  margin: 0;
 }
 
 .description__two-columns-main-text {
   width: 80%;
+  min-width: 784px;
 }
 
 .description__two-columns-paragraph {
@@ -102,7 +109,7 @@
   margin-top: 30px;
 }
 
-.two-columns__paragraph:first-of-type {
+.description__two-columns-paragraph:first-of-type {
   margin-top: 0;
 }
 
@@ -273,6 +280,7 @@
   min-height: 350px;
   background-color: #1F1F1F;
   padding: 60px 0 40px 0;
+  box-sizing: border-box;
 }
 
 .footer__columns {
