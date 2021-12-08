@@ -290,9 +290,6 @@
   margin: auto;
 }
 
-.footer__column {
-
-}
 
 .footer__column-content-copyright {
   flex-basis: 711px;
@@ -313,23 +310,19 @@
   font-size: 18px;
 }
 
-.footer__columns-info {
-  display: flex;
-}
-
-/* somethink */
-
 .footer__column-links {
   padding: 0;
   list-style: none;
   padding-top: 20px;
   padding-bottom: 16px;
+  margin: 0;
 }
 
 .footer__column-heading {
   color: #fff;
   line-height: 30px;
   font-size: 18px;
+  margin: 0;
 }
 
 .footer__list-item {
