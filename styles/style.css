@@ -31,7 +31,6 @@
 }
 
 .logo {
-  
   width: 183px;
   height: 32px;
 }
@@ -42,7 +41,7 @@
   position: absolute;
 }
 
-.header__title {  
+.header__title {
   display: block;
   width: 730px;
   margin-left: 64px;
@@ -493,7 +492,7 @@
   height: 35px;
 }
 
-.footer__author {  
+.footer__author {
   color: #fff;
   line-height: 25px;
   font-size: 18px;
