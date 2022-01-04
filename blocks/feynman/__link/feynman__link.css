@@ -8,4 +8,10 @@
   cursor: pointer;
   color: #2f80ed;
   z-index: 1;
+  transition-property: opacity;
+  transition-duration: .5s;
+}
+
+.feynman__link:hover {
+  opacity: .7;
 }

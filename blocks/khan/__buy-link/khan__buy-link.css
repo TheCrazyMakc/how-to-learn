@@ -4,5 +4,11 @@
   font-weight: normal;
   text-decoration: none;
   cursor: pointer;
-  color: #2f80ed;;
+  color: #2f80ed;
+  transition-property: opacity;
+  transition-duration: .5s;
+}
+
+.khan__buy-link:hover {
+  opacity: .7;
 }
